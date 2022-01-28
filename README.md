@@ -1,5 +1,6 @@
 # calculator-lab2-arqsoft
 [![Build Status](https://app.travis-ci.com/vale0722/calculator-lab2-arqsoft.svg?branch=main)](https://app.travis-ci.com/vale0722/calculator-lab2-arqsoft)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=calculator-lab2-arqsoft&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=calculator-lab2-arqsoft)
 
 Implementation of a Simple Calculator with the next operations:
 

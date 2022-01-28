@@ -6,4 +6,4 @@ jdk:
 addons:
   sonarcloud: true
 script:
-  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=$SONAR_ORGANIZATION -Dsonar.projectKey=$SONAR_PROJECT_KEY -Dsonar.sources='./app' -X
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=vale0722 -Dsonar.projectKey=calculator-lab2-arqsoft -Dsonar.sources='./app' -X
