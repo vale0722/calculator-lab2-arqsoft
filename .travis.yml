@@ -1,5 +1,9 @@
 language: node_js
 node_js:
   - "12"
-install:
-  - 'npm install'
+jdk:
+  - oraclejdk8
+addons:
+  sonarcloud: true
+script:
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=$SONAR_ORGANIZATION -Dsonar.projectKey=$SONAR_PROJECT_KEY -Dsonar.sources='./app' -X
