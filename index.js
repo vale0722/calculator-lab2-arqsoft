@@ -1,9 +1,9 @@
-const interface = require('readline-sync')
+const readline = require('readline-sync')
 
 let calculator = require('./app/calculator')
 
-const firstNum = parseInt(interface.question('set first number'))
-const secondNum = parseInt(interface.question('set second number'))
+const firstNum = parseInt(readline.question('set first number'))
+const secondNum = parseInt(readline.question('set second number'))
 
 console.log(`Add ${firstNum} + ${secondNum} = ${calculator.add(firstNum, secondNum)}`)
 console.log(`Menus ${firstNum} - ${secondNum} = ${calculator.minus(firstNum, secondNum)}`)
