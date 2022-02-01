@@ -8,3 +8,5 @@ addons:
 script:
   - npm run cover
   - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=vale0722 -Dsonar.projectKey=calculator-lab2-arqsoft -Dsonar.sources='./app' -X
+after_success:
+  - npm run coveralls
